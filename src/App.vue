@@ -62,6 +62,21 @@ const mostraResultado= ref(false)
         <input type="select" v-model="estado" />
       </div>
 
+      <div class="row">
+        <label for="">Hobbies:</label>
+        <input type="text" v-model="nome" autocomplete="on" />
+      </div>
+
+      <div class="row">
+        <label for="">Biografia:</label>
+        <input type="text" v-model="nome" autocomplete="on" />
+      </div>
+
+      <div class="row">
+        <label for="">Estado:</label>
+        <input type="select" v-model="nome" autocomplete="on" />
+      </div>
+      
       </form>
     </div>
 
@@ -100,4 +115,6 @@ width: 100w;
 .resultado{
   background-color:rgb(224, 131, 236);
 }
+
+
 </style>
